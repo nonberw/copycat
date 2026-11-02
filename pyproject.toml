@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "copycat"
+version = "0.1.0"
+description = "Imitation learning for a robot arm from scratch: scripted expert, DART noise, BC and action chunking in PyTorch, MuJoCo physics"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "nonberw" }]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "mujoco>=3.1",
+    "torch>=2.2",
+    "armageddon @ git+https://github.com/nonberw/armageddon",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pillow>=10.0", "matplotlib>=3.8"]
+
+[project.urls]
+Homepage = "https://github.com/nonberw/copycat"
+
+[tool.setuptools]
+packages = ["copycat"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest_tmp"

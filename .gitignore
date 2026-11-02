@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.pytest_tmp/
+.venv/
+MUJOCO_LOG.TXT
+*.egg-info/
+build/
+data/
+checkpoints/*
+!checkpoints/act_dart_200_s0.pt
+tmp/
+*.log

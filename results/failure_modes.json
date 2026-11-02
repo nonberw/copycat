@@ -1,0 +1,42 @@
+{
+ "bc_dart_50_s0": {
+  "successes": 34,
+  "failures": {
+   "froze holding the cube on the table": 4,
+   "dropped or placed off the pad": 20,
+   "never got a grip": 34,
+   "froze holding the cube in the air": 7,
+   "other": 1
+  }
+ },
+ "bc_dart_200_s0": {
+  "successes": 82,
+  "failures": {
+   "froze holding the cube on the table": 18
+  }
+ },
+ "chunk_mlp_dart_50_s0": {
+  "successes": 50,
+  "failures": {
+   "never got a grip": 39,
+   "dropped or placed off the pad": 7,
+   "froze holding the cube in the air": 2,
+   "froze holding the cube on the table": 2
+  }
+ },
+ "act_dart_50_s0": {
+  "successes": 53,
+  "failures": {
+   "never got a grip": 41,
+   "froze holding the cube on the table": 2,
+   "dropped or placed off the pad": 4
+  }
+ },
+ "act_dart_200_s0": {
+  "successes": 98,
+  "failures": {
+   "never got a grip": 1,
+   "froze holding the cube on the table": 1
+  }
+ }
+}
