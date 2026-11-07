@@ -1,5 +1,10 @@
 # COPYCAT
 
+[![tests](https://github.com/nonberw/copycat/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/nonberw/copycat/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](requirements.txt)
+[![MuJoCo](https://img.shields.io/badge/physics-MuJoCo-0b7285.svg)](https://mujoco.org)
+
 > Imitation learning for a robot arm, **from scratch**. A scripted expert shows a 6-DoF arm how to pick up a cube and put it on a pad, a neural network watches, and then the network does it alone on layouts it has never seen.
 > No LeRobot, no robomimic, no pretrained anything. Just MuJoCo, PyTorch and a very patient expert.
 
